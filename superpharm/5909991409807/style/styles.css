@@ -69,7 +69,7 @@
 #es-soledum.es-soledum .es-kv__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 6vw, 72px);
+  font-size: clamp(16px, 4.5vw, 72px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -125,7 +125,7 @@
 #es-soledum.es-soledum .es-signs__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(16px, 3vw, 52px);
+  font-size: clamp(16px, 2.5vw, 52px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -139,7 +139,7 @@
 #es-soledum.es-soledum .es-signs__name {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(12px, 3vw, 42px);
+  font-size: clamp(12px, 2.5vw, 42px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -157,13 +157,13 @@
 
 #es-soledum.es-soledum .es-signs__item--1 {
   position: absolute;
-  top: 34%;
+  top: 31%;
   left: 10%;
 }
 
 #es-soledum.es-soledum .es-signs__item--2 {
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: 29%;
 }
 
@@ -175,13 +175,13 @@
 
 #es-soledum.es-soledum .es-signs__item--4 {
   position: absolute;
-  top: 68%;
+  top: 67%;
   left: 71%;
 }
 
 #es-soledum.es-soledum .es-signs__item--5 {
   position: absolute;
-  top: 83%;
+  top:80%;
   left: 37%;
 }
 
@@ -328,7 +328,7 @@
 
 #es-soledum.es-soledum .es-pill__content {
   margin-inline: 2%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 #es-soledum.es-soledum .es-pill__txt {
@@ -491,7 +491,7 @@
   margin-left: auto;
 }
 
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 769px) {
   #es-soledum.es-soledum .es-kv__txt::before {
     top: -35px;
     left: -100px;
@@ -522,39 +522,3 @@
   }
 }
 
-@media screen and (min-width: 1001px) {
-  #es-soledum.es-soledum .es-signs {
-    height: 1540px;
-  }
-
-  #es-soledum.es-soledum .es-signs__triangle {
-    width: 160px;
-  }
-}
-
-@media screen and (min-width: 1240px) {
-  #es-soledum.es-soledum .es-signs {
-    height: 1930px;
-  }
-
-  #es-soledum.es-soledum .es-signs__triangle {
-    width: 240px;
-  }
-
-  #es-soledum.es-soledum .es-pill__desc {
-    font-size: 38px;
-  }
-
-  #es-soledum.es-soledum .es-dose__desc {
-    max-width: 70%;
-  }
-
-  #es-soledum.es-soledum .es-pill__content {
-    margin-bottom: 25%;
-  }
-
-  #es-soledum.es-soledum .es-kv__badge {
-    width: 16%;
-    margin: 18% 6% 16% auto;
-  }
-}
