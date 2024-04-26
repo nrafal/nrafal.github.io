@@ -11,6 +11,7 @@
 @media (min-width: 769px) {
   #viewport {
     width: calc(50vw + 200px);
+    max-width: 682px;
   }
 }
 
