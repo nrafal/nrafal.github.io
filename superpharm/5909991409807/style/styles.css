@@ -1,0 +1,559 @@
+#viewport {
+  width: 290px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #viewport {
+    width: calc(100vw - 20px);
+  }
+}
+
+@media (min-width: 769px) {
+  #viewport {
+    width: calc(50vw + 200px);
+  }
+}
+
+#es-soledum.es-soledum {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #0069a4;
+  background: #fff;
+}
+
+#es-soledum.es-soledum * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#es-soledum.es-soledum p #es-soledum.es-soledum li {
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+#es-soledum.es-soledum .es-soledum__sup,
+#es-soledum.es-soledum .es-soledum__sub {
+  line-height: 0;
+  font-size: 60%;
+}
+
+#es-soledum.es-soledum .es-soledum__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-soledum.es-soledum .es-soledum__green {
+  color: #008b4a;
+}
+
+#es-soledum.es-soledum .es-soledum__bigger {
+  font-size: 130%;
+}
+
+#es-soledum.es-soledum .es-soledum__strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+#es-soledum.es-soledum .es-kv__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 6vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-inline: 2%;
+  margin-top: -72%;
+}
+
+#es-soledum.es-soledum .es-kv__badge {
+  width: 16%;
+  margin: 14% 6% 16% auto;
+}
+
+#es-soledum.es-soledum .es-kv__list {
+  margin-inline-start: 22%;
+}
+
+#es-soledum.es-soledum .es-kv__txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(16px, 4vw, 42px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #008b4a;
+  text-align: left;
+  position: relative;
+  margin-bottom: 7%;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+}
+#es-soledum.es-soledum .es-kv__txt  .es-kv__txt_txt_container{
+  position: relative;
+}
+
+#es-soledum.es-soledum .es-signs {
+  position: relative;
+  min-height: 155vw;
+}
+
+#es-soledum.es-soledum .es-signs__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 5vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-inline: 2%;
+}
+
+#es-soledum.es-soledum .es-signs__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px, 3vw, 52px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-inline: 2%;
+  margin-top: -160%;
+}
+
+#es-soledum.es-soledum .es-signs__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(12px, 3vw, 42px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #008b4a;
+  text-align: center;
+}
+
+#es-soledum.es-soledum .es-signs__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+#es-soledum.es-soledum .es-signs__item--1 {
+  position: absolute;
+  top: 34%;
+  left: 10%;
+}
+
+#es-soledum.es-soledum .es-signs__item--2 {
+  position: absolute;
+  top: 52%;
+  left: 29%;
+}
+
+#es-soledum.es-soledum .es-signs__item--3 {
+  position: absolute;
+  top: 69%;
+  left: 8%;
+}
+
+#es-soledum.es-soledum .es-signs__item--4 {
+  position: absolute;
+  top: 68%;
+  left: 71%;
+}
+
+#es-soledum.es-soledum .es-signs__item--5 {
+  position: absolute;
+  top: 83%;
+  left: 37%;
+}
+
+#es-soledum.es-soledum .es-signs__triangle {
+  width: 15vw;
+}
+
+#es-soledum.es-soledum .es-signs__label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(6px, 1vw, 16px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+}
+
+#es-soledum.es-soledum .es-work {
+  background: rgb(200, 224, 241);
+  background: linear-gradient(90deg, rgba(200, 224, 241, 1) 0%, rgba(194, 221, 239, 1) 50%, rgba(192, 220, 240, 1) 100%);
+  position: relative;
+  z-index: 5;
+}
+
+#es-soledum.es-soledum .es-work__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 5vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-inline: 2%;
+  padding-top: 8%;
+}
+
+#es-soledum.es-soledum .es-work__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(14px, 3vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin-bottom: 8px;
+  margin: 4% 10% 4% 2%;
+}
+
+#es-soledum.es-soledum .es-work__span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+#es-soledum.es-soledum .es-work__list {
+  margin-inline-start: 18%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+#es-soledum.es-soledum .es-work__txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 3vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #008b4a;
+  text-align: left;
+  position: relative;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  margin-left: -40px;
+}
+
+
+#es-soledum.es-soledum .es-work__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+#es-soledum.es-soledum .es-work__picture {
+  max-width: 25%;
+  padding-left: 5%;
+}
+
+#es-soledum.es-soledum .es-work__desc {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(16px, 3vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#es-soledum.es-soledum .es-pill {
+  margin-top: -70px;
+  position: relative;
+  z-index: 10;
+}
+
+#es-soledum.es-soledum .es-pill__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 5vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-inline: 2%;
+  margin-top: -84%;
+  margin-bottom: 2%;
+}
+
+#es-soledum.es-soledum .es-pill__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12px, 2.5vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin-inline-start: 2%;
+  margin-inline-end: 20%;
+  margin-bottom: 18%;
+}
+
+#es-soledum.es-soledum .es-pill__span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+#es-soledum.es-soledum .es-pill__content {
+  margin-inline: 2%;
+  margin-bottom: 15%;
+}
+
+#es-soledum.es-soledum .es-pill__txt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 4vw, 58px);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: #008b4a;
+  text-align: left;
+}
+
+#es-soledum.es-soledum .es-pill__desc {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+}
+
+#es-soledum.es-soledum .es-dose {
+  background: rgb(233, 245, 253);
+  background: linear-gradient(90deg, rgba(233, 245, 253, 1) 0%, rgba(233, 245, 253, 1) 100%);
+  position: relative;
+  z-index: 15;
+}
+
+#es-soledum.es-soledum .es-dose__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 6vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-inline: 2%;
+  padding-top: 4%;
+}
+
+#es-soledum.es-soledum .es-dose__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12px, 3vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin: 2%;
+}
+
+#es-soledum.es-soledum .es-dose__span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+#es-soledum.es-soledum .es-dose__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+#es-soledum.es-soledum .es-dose__picture {
+  max-width: 25%;
+  padding-left: 5%;
+}
+
+#es-soledum.es-soledum .es-dose__desc {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12px, 2.5vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  padding-left: 5%;
+  max-width: 60%;
+}
+
+#es-soledum.es-soledum .es-benefits__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(16px, 6vw, 72px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin: 4% 2%;
+}
+
+#es-soledum.es-soledum .es-benefits__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px, 3vw, 38px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin-inline: 2%;
+  margin-bottom: 2%;
+}
+
+#es-soledum.es-soledum .es-benefits__list {
+  margin-inline-start: 8%;
+}
+
+#es-soledum.es-soledum .es-benefits__label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(6px, 1vw, 16px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: left;
+  margin: 4%;
+}
+
+#es-soledum.es-soledum .es-disclaimer__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(16px, 4vw, 48px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-align: left;
+  margin: 4%;
+}
+
+#es-soledum.es-soledum .es-disclaimer__label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: clamp(6px, 1vw, 16px);
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: justify;
+  margin: 4%;
+}
+
+#es-soledum.es-soledum .es-disclaimer__span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #0069a4;
+}
+
+#es-soledum.es-soledum .es-disclaimer__picture {
+  width: 25%;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 741px) {
+  #es-soledum.es-soledum .es-kv__txt::before {
+    top: -35px;
+    left: -100px;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+  }
+
+  #es-soledum.es-soledum .es-work__txt::before {
+    top: -30px;
+    left: -90px;
+    background-size: 80px 80px;
+    height: 80px;
+    width: 80px;
+  }
+
+  #es-soledum.es-soledum .es-signs {
+    min-height: unset;
+    height: 1111px;
+  }
+
+  #es-soledum.es-soledum .es-signs__subtitle {
+    margin-top: -157%;
+  }
+
+  #es-soledum.es-soledum .es-signs__triangle {
+    width: 123px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  #es-soledum.es-soledum .es-signs {
+    height: 1540px;
+  }
+
+  #es-soledum.es-soledum .es-signs__triangle {
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  #es-soledum.es-soledum .es-signs {
+    height: 1930px;
+  }
+
+  #es-soledum.es-soledum .es-signs__triangle {
+    width: 240px;
+  }
+
+  #es-soledum.es-soledum .es-pill__desc {
+    font-size: 38px;
+  }
+
+  #es-soledum.es-soledum .es-dose__desc {
+    max-width: 70%;
+  }
+
+  #es-soledum.es-soledum .es-pill__content {
+    margin-bottom: 25%;
+  }
+
+  #es-soledum.es-soledum .es-kv__badge {
+    width: 16%;
+    margin: 18% 6% 16% auto;
+  }
+}
