@@ -18,7 +18,7 @@
 #es-soledum.es-soledum {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   max-width: 1158px;
   margin: 0 auto;
@@ -69,7 +69,7 @@
 #es-soledum.es-soledum .es-kv__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 5.5vw, 55px);
+  font-size: clamp(14px, 5.5vw, 55px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -90,7 +90,7 @@
 #es-soledum.es-soledum .es-kv__txt {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(16px, 4vw, 35px);
+  font-size: clamp(14px, 4vw, 35px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -117,7 +117,7 @@
 #es-soledum.es-soledum .es-signs__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 6vw, 45px);
+  font-size: clamp(14px, 6vw, 45px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -128,7 +128,7 @@
 #es-soledum.es-soledum .es-signs__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(16px, 4vw, 32px);
+  font-size: clamp(14px, 4vw, 32px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -195,7 +195,7 @@
 #es-soledum.es-soledum .es-signs__label {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(6px, 1vw, 16px);
+  font-size: clamp(6px, 1vw, 14px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -216,7 +216,7 @@
 #es-soledum.es-soledum .es-work__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 3.5vw, 52px);
+  font-size: clamp(14px, 3.5vw, 52px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -255,7 +255,7 @@
 #es-soledum.es-soledum .es-work__txt {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 2.5vw, 30px);
+  font-size: clamp(14px, 2.5vw, 30px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -285,7 +285,7 @@
 #es-soledum.es-soledum .es-work__desc {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(16px, 3vw, 38px);
+  font-size: clamp(14px, 3vw, 30px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -303,7 +303,7 @@
 #es-soledum.es-soledum .es-pill__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 3.5vw, 45px);
+  font-size: clamp(14px, 3.5vw, 45px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -340,7 +340,7 @@
 #es-soledum.es-soledum .es-pill__txt {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 4vw, 25px);
+  font-size: clamp(14px, 4vw, 25px);
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -351,7 +351,7 @@
 #es-soledum.es-soledum .es-pill__desc {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(16px, 2.5vw, 20px);
+  font-size: clamp(14px, 2.5vw, 20px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -369,7 +369,7 @@
 #es-soledum.es-soledum .es-dose__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 6vw, 72px);
+  font-size: clamp(14px, 6vw, 55px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -381,7 +381,7 @@
 #es-soledum.es-soledum .es-dose__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(12px, 3vw, 38px);
+  font-size: clamp(12px, 3vw, 30px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -412,7 +412,7 @@
 #es-soledum.es-soledum .es-dose__desc {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(12px, 2.5vw, 38px);
+  font-size: clamp(12px, 2.5vw, 30px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -425,7 +425,7 @@
 #es-soledum.es-soledum .es-benefits__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: clamp(16px, 6vw, 72px);
+  font-size: clamp(14px, 6vw, 55px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -436,7 +436,7 @@
 #es-soledum.es-soledum .es-benefits__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(16px, 3vw, 38px);
+  font-size: clamp(14px, 3vw, 30px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -453,7 +453,7 @@
 #es-soledum.es-soledum .es-benefits__label {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(6px, 1vw, 16px);
+  font-size: clamp(6px, 1vw, 14px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -465,7 +465,7 @@
 #es-soledum.es-soledum .es-disclaimer__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: clamp(16px, 4vw, 48px);
+  font-size: clamp(14px, 4vw, 34px);
   line-height: inherit;
   margin: 0;
   padding: 0;
@@ -477,7 +477,7 @@
 #es-soledum.es-soledum .es-disclaimer__label {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: clamp(6px, 1vw, 16px);
+  font-size: clamp(6px, 1vw, 14px);
   line-height: inherit;
   margin: 0;
   padding: 0;
